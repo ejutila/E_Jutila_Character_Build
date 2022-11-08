@@ -18,12 +18,12 @@
   
   body {
     font-family: sans-serif;
-    background-color: rgb(1, 80, 30, 0.6);
+    background-color: rgb(2, 59, 23);
   }
   
   /* main header rules */
   header {
-    background-color:aquamarine;
+    background-color: rgb(82, 30, 0);
     position: sticky;
     top: 0;
     text-align: center;
@@ -129,6 +129,33 @@
     position: absolute;
   }
 
+.pink_bumper {
+    width: 100%;
+    height: 6px;
+    background-color: pink;
+  
+    transition: height 0.2s ease;
+    position: absolute;
+  }
+
+.lightblue_bumper {
+    width: 100%;
+    height: 6px;
+    background-color: cornflowerblue;
+  
+    transition: height 0.2s ease;
+    position: absolute;
+  }
+
+.redviolet_bumper {
+    width: 100%;
+    height: 6px;
+    background-color: rgb(212, 0, 81);
+  
+    transition: height 0.2s ease;
+    position: absolute;
+  }
+
 .characters li:hover .red_bumper {
     height: 70px;
   }
@@ -148,7 +175,20 @@
 .characters li:hover .orange_bumper {
     height: 70px;
   }
+
 .characters li:hover .purple_bumper {
+    height: 70px;
+  }
+
+.characters li:hover .redviolet_bumper {
+    height: 70px;
+  }
+
+.characters li:hover .pink_bumper {
+    height: 70px;
+  }
+
+.characters li:hover .lightblue_bumper {
     height: 70px;
   }
   
@@ -197,9 +237,18 @@
   #sheena {
     background-position: -750px 0;
   }
+  #zelos {
+    background-position: -900px 0;
+  }
+  #presea {
+    background-position: -1050px 0;
+  }
+  #regal {
+    background-position: -1200px 0;
+  }
   
   .sprite:hover {
-    background-position-y: -150px !important;
+    background-position-y: 150px !important;
   }
   
   /* footer rules here */
