@@ -1,334 +1,341 @@
 /* these all apply to the body element -> global rules */
 
 * {
-    border: none;
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  .hidden {
-    display: none;
-  }
-  
-  html,
-  body {
-    height: 100%;
-  }
-  
-  body {
-    font-family: sans-serif;
-    background-color: rgb(2, 59, 23);
-  }
-  
-  /* main header rules */
-  header {
-    background-color: rgb(82, 30, 0);
-    position: sticky;
-    top: 0;
-    text-align: center;
-  }
-  
-  #main-logo {
-    width: 300px;
-    padding: 10px 0;
-  }
-  
-  /* main rules here */
-  #character_nav {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.3);
-  
-    background-image: url("../img/hero_image.jfif");
-    background-repeat: no-repeat;
-    background-size: cover;
-  
-    background-blend-mode: multiply;
-  }
-  
-  .characters {
-    list-style-type: none;
-  }
-  
-  .characters li {
-    position: relative;
-    display: inline-block;
-    height: 220px;
-    margin: 10px 8px;
-  
-    background-color: black;
-  
-    text-align: center;
-    cursor: pointer;
-  }
-  
-  .characters li h5 {
-    position: relative;
-    color: white;
-    padding: 12px 8px;
-  
-    z-index: 500;
-  }
-  
-  .characters li a {
-    text-decoration: none;
-  }
-  
-  .red_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: red;
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-    transition: height 0.2s ease;
-  
-    position: absolute;
-  }
+.hidden {
+  display: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(2, 59, 23);
+  height: ;
+}
+
+/* main header rules */
+header {
+  background-color: rgb(82, 30, 0);
+  position: sticky;
+  top: 0;
+  text-align: center;
+}
+
+#main-logo {
+  width: 300px;
+  padding: 10px 0;
+}
+
+/* main rules here */
+#character_nav {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+
+  background-image: url("../img/hero_image.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.characters {
+  list-style-type: none;
+}
+
+.characters li {
+  position: relative;
+  display: inline-block;
+  height: 220px;
+  margin: 10px 8px;
+
+  background-color: black;
+
+  text-align: center;
+  cursor: pointer;
+}
+
+.characters li h5 {
+  position: relative;
+  color: white;
+  padding: 12px 8px;
+
+  z-index: 500;
+}
+
+.characters li a {
+  text-decoration: none;
+}
+
+.red_bumper {
+  width: 100%;
+  height: 6px;
+  background-color: red;
+
+  transition: height 0.2s ease;
+
+  position: absolute;
+}
 
 .blue_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: blue;
-  
-    transition: height 0.2s ease;
-    position: absolute;
-  }
+  width: 100%;
+  height: 6px;
+  background-color: blue;
+
+  transition: height 0.2s ease;
+  position: absolute;
+}
 
 .yellow_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: #D2DE1B;
-  
-    transition: height 0.2s ease;
-    position: absolute;
-  }
-  
+  width: 100%;
+  height: 6px;
+  background-color: #d2de1b;
+
+  transition: height 0.2s ease;
+  position: absolute;
+}
+
 .maroon_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: maroon;
-  
-    transition: height 0.2s ease;
-    position: absolute;
-  }
+  width: 100%;
+  height: 6px;
+  background-color: maroon;
+
+  transition: height 0.2s ease;
+  position: absolute;
+}
 
 .orange_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: orangered;
-  
-    transition: height 0.2s ease;
-    position: absolute;
-  }
+  width: 100%;
+  height: 6px;
+  background-color: orangered;
+
+  transition: height 0.2s ease;
+  position: absolute;
+}
 
 .purple_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: purple;
-  
-    transition: height 0.2s ease;
-    position: absolute;
-  }
+  width: 100%;
+  height: 6px;
+  background-color: purple;
+
+  transition: height 0.2s ease;
+  position: absolute;
+}
 
 .pink_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: pink;
-  
-    transition: height 0.2s ease;
-    position: absolute;
-  }
+  width: 100%;
+  height: 6px;
+  background-color: pink;
+
+  transition: height 0.2s ease;
+  position: absolute;
+}
 
 .lightblue_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: cornflowerblue;
-  
-    transition: height 0.2s ease;
-    position: absolute;
-  }
+  width: 100%;
+  height: 6px;
+  background-color: cornflowerblue;
+
+  transition: height 0.2s ease;
+  position: absolute;
+}
 
 .redviolet_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: rgb(212, 0, 81);
-  
-    transition: height 0.2s ease;
-    position: absolute;
-  }
+  width: 100%;
+  height: 6px;
+  background-color: rgb(212, 0, 81);
+
+  transition: height 0.2s ease;
+  position: absolute;
+}
 
 .characters li:hover .red_bumper {
-    height: 70px;
-  }
+  height: 70px;
+}
 
 .characters li:hover .blue_bumper {
-    height: 70px;
-  }
+  height: 70px;
+}
 
 .characters li:hover .yellow_bumper {
-    height: 70px;
-  }
+  height: 70px;
+}
 
 .characters li:hover .maroon_bumper {
-    height: 70px;
-  }
+  height: 70px;
+}
 
 .characters li:hover .orange_bumper {
-    height: 70px;
-  }
+  height: 70px;
+}
 
 .characters li:hover .purple_bumper {
-    height: 70px;
-  }
+  height: 70px;
+}
 
 .characters li:hover .redviolet_bumper {
-    height: 70px;
-  }
+  height: 70px;
+}
 
 .characters li:hover .pink_bumper {
-    height: 70px;
-  }
+  height: 70px;
+}
 
 .characters li:hover .lightblue_bumper {
-    height: 70px;
-  }
-  
-  article {
-    padding: 20px;
-  }
-  
-  /* select the h3 tag inside the article tag on the page */
-  /* a selector followed by a space and then ANOTHER selector gets a reference to the parent element and then the child element or elements inside of it */
-  article h3 {
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 14px;
-    color: aliceblue;
-  }
-  
-  /* select the p tag inside the article tag on the page */
-  article p {
-    width: 80%;
-    font-size: 18px;
-    line-height: 1.2;
-    text-align: center;
-    margin: 0 auto;
-    color: aliceblue;
-  }
-  
-  .sprite {
-    width: 150px;
-    height: 150px;
-  
-    background-image: url("../img/SymphoniaSprites.jpg");
-  }
-  
-  #genis {
-    background-position: -150px 0;
-  }
-  #colette {
-    background-position: -300px 0;
-  }
-  #kratos {
-    background-position: -450px 0;
-  }
-  #raine {
-    background-position: -600px 0;
-  }
-  #sheena {
-    background-position: -750px 0;
-  }
-  #zelos {
-    background-position: -900px 0;
-  }
-  #presea {
-    background-position: -1050px 0;
-  }
-  #regal {
-    background-position: -1200px 0;
-  }
-  
-  .sprite:hover {
-    background-position-y: 150px !important;
-  }
-  
-  /* footer rules here */
-  footer {
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .sticky_footer {
-    position: sticky;
-    top: 100%;
-  
-    height: 80px;
-    background-color: rgb(255, 0, 0, 0.7);
-  }
-  
-  /* lightbox rules here */
-  
-  .lightbox {
-    width: 100vw; /* vw = viewport width => screen width */
-    height: 100vh; /* vh = viewport height => screen height */
-  
-    position: absolute;
-    top: 0;
-    left: 0;
-  
-    background-color: rgba(0, 0, 0, 0.75); 
-    background-image: url("../img/lloyd_lb.jpg");
-    background-repeat: no-repeat;
-  
-    background-size: 55vh; /* 55% of the viewport height */
-    background-position: 50px, 50px;
-  
-    z-index: 5000;
-  
-    display: none;
-  }
-  
-  #lightbox2 {
-    background-image: url("../img/raine_lb.jpg");
-  }
-  
-  .lightbox_close {
-    position: relative;
-    top: 20px;
-    left: 95%;
-  
-    color: white;
-    font-size: 3em;
-  
-    text-decoration: none;
-  
-    font-weight: bolder;
-  }
-  
-  .lightbox_close:hover {
-    opacity: 0.5;
-    color: red;
-  }
-  
-  .lightbox article {
-    width: 55%;
-    margin-left: 40%;
-    padding-top: 50px;
-  }
-  
-  .lb_text,
-  .lb_heading {
-    text-align: left;
-  }
-  
-  .lb_text {
-    line-height: 1.6 !important;
-    margin-left: 0;
-    padding-top: 2em;
-  }
-  
-  /* turn the lightbox on using the :target pseudo selector */
-  .lightbox:target {
-    display: block;
-  }
-  
+  height: 70px;
+}
+
+article {
+  padding: 20px;
+}
+
+/* select the h3 tag inside the article tag on the page */
+/* a selector followed by a space and then ANOTHER selector gets a reference to the parent element and then the child element or elements inside of it */
+article h3 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 14px;
+  color: aliceblue;
+}
+
+/* select the p tag inside the article tag on the page */
+article p {
+  width: 80%;
+  font-size: 18px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  color: aliceblue;
+}
+
+.sprite {
+  width: 150px;
+  height: 150px;
+
+  background-image: url("../img/SymphoniaSprites.jpg");
+}
+
+#genis {
+  background-position: -150px 0;
+}
+#colette {
+  background-position: -300px 0;
+}
+#kratos {
+  background-position: -450px 0;
+}
+#raine {
+  background-position: -600px 0;
+}
+#sheena {
+  background-position: -750px 0;
+}
+#zelos {
+  background-position: -900px 0;
+}
+#presea {
+  background-position: -1050px 0;
+}
+#regal {
+  background-position: -1200px 0;
+}
+
+.sprite:hover {
+  background-position-y: 150px !important;
+}
+
+/* footer rules here */
+footer {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.sticky_footer {
+  position: sticky;
+  top: 100%;
+
+  height: 80px;
+  background-color: rgb(255, 0, 0, 0.7);
+}
+
+/* lightbox rules here */
+
+.lightbox {
+  width: 100vw; /* vw = viewport width => screen width */
+  height: 100vh; /* vh = viewport height => screen height */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.75);
+  background-image: url("../img/lloyd_lb.jpg");
+  background-repeat: no-repeat;
+
+  background-size: 55vh; /* 55% of the viewport height */
+  background-position: 50px, 50px;
+
+  z-index: 5000;
+
+  display: none;
+}
+
+#lightbox2 {
+  background-image: url("../img/raine_lb.jpg");
+}
+
+#lightbox3 {
+  background-image: url("../img/colette_lb.jpg");
+}
+
+#lightbox4 {
+  background-image: url("../img/zelos_lb.jpg");
+}
+
+.lightbox_close {
+  position: relative;
+  top: 20px;
+  left: 95%;
+
+  color: white;
+  font-size: 3em;
+
+  text-decoration: none;
+
+  font-weight: bolder;
+}
+
+.lightbox_close:hover {
+  opacity: 0.5;
+  color: red;
+}
+
+.lightbox article {
+  width: 55%;
+  margin-left: 40%;
+  padding-top: 50px;
+}
+
+.lb_text,
+.lb_heading {
+  text-align: left;
+}
+
+.lb_text {
+  line-height: 1.6 !important;
+  margin-left: 0;
+  padding-top: 2em;
+}
+
+/* turn the lightbox on using the :target pseudo selector */
+.lightbox:target {
+  display: block;
+}
